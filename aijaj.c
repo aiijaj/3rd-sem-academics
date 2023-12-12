@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main()
 {
-	printf("my name is aijaj");
+	printf("my name is ayaz");
 }

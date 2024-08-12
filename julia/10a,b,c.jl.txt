@@ -1,0 +1,25 @@
+import Pkg;
+Pkg.add("Plots")
+using Plots
+x=1:10e4;
+y=x.^2;
+plot(x,y)
+10a)Pkg.add("UnicodePlots")
+Pkg.build("UnicodePlots")
+Plots.UnicodePlotsBackend()
+unicodeplots()
+unicodeplots()
+x=1:10e4;
+plot(x,y)
+
+10b)
+using Plots
+eq(x)=sind(x)+sind(2x)
+plot(eq,1:500)
+
+10c)
+eq(x)=sind(x)+sind(2x)
+plot(eq,1:500)
+eq1(x)=sind(2x)+sind(3x)
+plot!(eq1,1:500)
+plot(eq,1:500)
